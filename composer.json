@@ -1,0 +1,16 @@
+{
+    "name": "thallesgadelha/123jobs",
+    "description": "Aplicação Web de Busca de Empregos",
+    "authors": [
+        {
+            "name": "Thalles Gadelha",
+            "email": "thalles@email.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Framework\\": "Framework/",
+            "App\\": "App/"
+        }
+    }
+}
