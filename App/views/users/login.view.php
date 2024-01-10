@@ -13,7 +13,7 @@
             <input
               type="email"
               name="email"
-              placeholder="Email Address"
+              placeholder="Email"
               class="w-full px-4 py-2 border rounded focus:outline-none"
             />
           </div>
@@ -21,7 +21,7 @@
             <input
               type="password"
               name="password"
-              placeholder="Password"
+              placeholder="Senha"
               class="w-full px-4 py-2 border rounded focus:outline-none"
             />
           </div>
@@ -32,8 +32,8 @@
           </button>
 
           <p class="mt-4 text-gray-500">
-            Don't have an account?
-            <a class="text-blue-900" href="/auth/register">Register</a>
+            Ainda não tem uma conta?
+            <a class="text-blue-900" href="/auth/register">Cadastro</a>
           </p>
         </form>
       </div>

@@ -4,7 +4,7 @@
 <!-- Registration Form Box -->
 <div class="flex justify-center items-center mt-20">
       <div class="bg-white p-8 rounded-lg shadow-md w-full md:w-500 mx-6">
-        <h2 class="text-4xl text-center font-bold mb-4">Register</h2>
+        <h2 class="text-4xl text-center font-bold mb-4">Cadastro</h2>
         <?php loadPartial('errors', [
             'errors' => $errors ?? []
           ]); ?>
@@ -13,7 +13,7 @@
             <input
               type="text"
               name="name"
-              placeholder="Full Name"
+              placeholder="Nome Completo"
               class="w-full px-4 py-2 border rounded focus:outline-none" value="<?= $user['name'] ?? '' ?>"
             />
           </div>
@@ -21,7 +21,7 @@
             <input
               type="email"
               name="email"
-              placeholder="Email Address"
+              placeholder="Email"
               class="w-full px-4 py-2 border rounded focus:outline-none"
               value="<?= $user['email'] ?? '' ?>"
             />
@@ -30,7 +30,7 @@
             <input
               type="text"
               name="city"
-              placeholder="City"
+              placeholder="Cidade"
               class="w-full px-4 py-2 border rounded focus:outline-none"
               value="<?= $user['city'] ?? '' ?>"
             />
@@ -39,7 +39,7 @@
             <input
               type="text"
               name="state"
-              placeholder="State"
+              placeholder="Estado"
               class="w-full px-4 py-2 border rounded focus:outline-none"
               value="<?= $user['state'] ?? '' ?>"
             />
@@ -48,7 +48,7 @@
             <input
               type="password"
               name="password"
-              placeholder="Password"
+              placeholder="Senha"
               class="w-full px-4 py-2 border rounded focus:outline-none"
             />
           </div>
@@ -56,18 +56,18 @@
             <input
               type="password"
               name="password_confirmation"
-              placeholder="Confirm Password"
+              placeholder="Confirme a Senha"
               class="w-full px-4 py-2 border rounded focus:outline-none"
             />
           </div>
           <button
             type="submit" class="w-full bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded focus:outline-none"
           >
-            Register
+            Cadastrar
           </button>
 
           <p class="mt-4 text-gray-500">
-            Already have an account?
+            Já tem uma conta?
             <a class="text-blue-900" href="/auth/login">Login</a>
           </p>
         </form>
