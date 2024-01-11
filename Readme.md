@@ -18,4 +18,3 @@ Agora inicialize a aplicação digitando no terminal, na raiz do projeto:
 php -S localhost:8000 -t public
 ```
 Nesse caso, servi a aplicação na porta 8000. Mas fica a seu critério.
-![Screenshot_2](https://github.com/thallesgadelha/123jobs/assets/63134583/52154a02-52d0-407c-ab1c-016c985cacaf)
