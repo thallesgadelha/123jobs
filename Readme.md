@@ -10,7 +10,7 @@ No arquivo <em>db.php</em>, localizado na pasta <em>config</em> na raiz do proje
 <br>
 ![Screenshot_2](https://github.com/thallesgadelha/123jobs/assets/63134583/52154a02-52d0-407c-ab1c-016c985cacaf)
 
-No VSCode, installe a extensão PHP Server
+No VSCode, instale a extensão PHP Server
 ![Screenshot_1](https://github.com/thallesgadelha/123jobs/assets/63134583/b7979f5f-5c9b-4795-abcc-b4b32f8e15e4)
 
 Agora inicialize a aplicação digitando no terminal, na raiz do projeto:
