@@ -773,6 +773,16 @@ video {
   background-color: rgb(34 197 94 / var(--tw-bg-opacity));
 }
 
+.bg-custom-color-900 {
+  --tw-bg-opacity: 1;
+  background-color: #8945ff;
+}
+
+.hover\:bg-custom-color:hover {
+  --tw-bg-opacity: 1;
+  background-color: #6b44e9;
+}
+
 .bg-cover {
   background-size: cover;
 }
