@@ -1,7 +1,7 @@
 ### 123 Jobs - Aplicação Web de Busca de Empregos
 ![Screenshot_1](https://github.com/thallesgadelha/123jobs/assets/63134583/06ff2773-502c-4581-87ec-75e0b7a096db)
 <br>
-Versão do PHP 8.13 <br> 
+Versão do PHP 8.3.1 <br> 
 Versão do Composer: 2.6.6
 ### Como usar o projeto?
 É necessário que você tenha o Laragon (caso esteja no Windows) ou o XAMPP instalado e configurado na sua máquina. Nesse projeto usei o Laragon.
