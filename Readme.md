@@ -8,8 +8,9 @@ Versão do Composer: 2.6.6
 
 Clone/Baixe o arquivo em ZIP e coloque ele na pasta raiz do seu servidor (Laragon ou XAMPP). No caso do Laragon fica em <em>C:\laragon\www</em>
 
-Se você estiver usando o Laragon, você pode clicar com o botão direito na interface principal do Laragon, ir para Apache > sites-enabled > auto."nome-do-projeto".test.conf
-Adicione /public ao final do VirtualRoot
+Se você estiver usando o Laragon, você pode clicar com o botão direito na interface principal do Laragon, ir para Apache > sites-enabled > auto."nome-do-projeto".test.conf.
+
+Adicione /public ao final do DocumentRoot
 <br>
 ![Screenshot_2](https://github.com/thallesgadelha/123jobs/assets/63134583/04262d0f-2176-4240-821d-9795a8b90123)
 
